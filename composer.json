@@ -1,0 +1,24 @@
+{
+    "name": "blackdrago/laracrumbs",
+    "description": "Administrative package for managing Laracrumbs via UI.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "K. McCormick",
+            "email": "kyliemccormick@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "^5.3",
+        "blackdrago/laracrumbs": "^1.0",
+    },
+    "autoload": {
+        "files": [
+            "src/config/constants.php"
+        ],
+        "psr-4": {
+            "LaracrumbsAdmin\\": "src/"
+        }
+    }
+}  
