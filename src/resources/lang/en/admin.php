@@ -24,6 +24,15 @@ return [
     'header_linkname'   => 'Name/Link',
     'header_hasit'      => 'Laracrumb?',
 
+    // crumb titles
+    'crumb_home'    => 'Laracrumbs Administration',
+    'crumb_routes'  => 'View Routes',
+    'crumb_browse'  => 'Browse',
+    'crumb_create'  => 'Create Laracrumb',
+    'crumb_preview' => 'Preview Laracrumb',
+    'crumb_edit'    => 'Edit Laracrumb',
+    'crum_delete'   => 'Delete Laracrumb',
+
     // management links
     'gen_preview'  => 'Preview',
     'gen_edit'     => 'Modify',
